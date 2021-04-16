@@ -1,0 +1,577 @@
+@media screen and (min-width: 1921px) {
+    #main {
+        background-size: 100%;
+        background-position: bottom center;
+    }
+
+    #description {
+        background-size: 100% 100%;
+    }
+
+    #info {
+        background-size: 100%;
+    }
+}
+
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+    #main #header {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    #main #header {
+        padding-top: 20px;
+    }
+
+    #main #titles {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    #strong, #club {
+        font-size: 150px;
+    }
+
+    #titles-image {
+        max-width: 470px;
+        max-height: 578px;
+    }
+
+    #titles-image img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #main #titles #titles-container-text {
+        max-width: 483px;
+    }
+
+    #main #titles #titles-container-text #titles-barber {
+        font-size: 38px;
+    }
+
+    #main #titles #titles-container-text #titles-text {
+        font-size: 20px;
+    }
+
+    #advantages-container, #info-container, #instagram-container, #prices-container, #discount-container, #barbershop-masters-container, #footer-container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    #advantages #advantages-container .advantage .advantage-text {
+        margin-left: 18px;
+    }
+
+    #info {
+        padding-bottom: 130px;
+    }
+
+    #info-image {
+        max-width: 530px;
+    }
+
+    #info-image img {
+        max-width: 100%;
+    }
+
+    #info #info-container #positive-sign {
+        margin-top: 55px;
+    }
+
+    #info #info-container #information #info-texts #barber-abs {
+        right: 100px;
+        max-width: 150px;
+    }
+
+    #info #info-container #information #info-texts {
+        margin-left: 64px;
+        margin-right: 5px;
+    }
+
+    #info #info-container #information #info-texts #barber-abs img {
+        max-width: 100%;
+    }
+
+    #prices #prices-container #block-general #price-block-one {
+        padding-left: 60px;
+    }
+
+    #block-general {
+        justify-content: space-between;
+    }
+
+    #price-scissors {
+        left: 230px;
+    }
+
+    .slick-dots {
+        left: 300px;
+        width: 40%;
+    }
+
+    #reservation-container{
+        max-width: 915px;
+    }
+
+    #reservation #reserve{
+        justify-content: space-around;
+    }
+
+}
+
+
+/*768 - 1023 */
+@media screen and (max-width: 1023px) {
+    #main #header {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+    #main #header #logo {
+        order: 1;
+    }
+
+    #main #header #menu {
+        order: 3;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #main #header #menu a {
+        margin: 0 50px;
+    }
+
+    #main #header #call {
+        order: 2;
+    }
+
+    #main #titles {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #main #titles #titles-container-text {
+        order: 1;
+        max-width: none;
+        margin-top: 80px;
+    }
+
+    #main #titles #titles-image {
+        order: 2;
+        max-height: 435px;
+        margin-top: -70px;
+    }
+
+    #strong, #club {
+        font-size: 130px;
+    }
+
+    #strong {
+        top: 335px;
+        right: 20px;
+    }
+
+    #club {
+        bottom: 0;
+    }
+
+    #info #info-container #information #info-texts {
+        order: 1;
+        text-align: center;
+        margin: 0;
+    }
+
+    #info-image {
+        order: 2;
+        max-width: 455px;
+    }
+
+    #info #info-container #information {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info #info-container #information #info-texts #barber-abs {
+        right: -50px;
+        max-width: 160px;
+        bottom: -610px;
+        opacity: 0.6;
+    }
+
+    #prices #prices-container #block-general #price-block-one {
+        width: 43%;
+        padding-left: 25px;
+    }
+
+    #price-block-two {
+        width: 42%;
+    }
+
+    #price-scissors {
+        left: 40px;
+    }
+
+    #barbershop-masters #barbershop-masters-container #barbershop-masters-text {
+        width: 700px;
+        margin: 45px auto 40px auto;
+    }
+
+    .slick-slider .slick-list {
+        width: 450px;
+    }
+
+    .product-content-title {
+        padding-bottom: 25px;
+    }
+
+    .slick-dots {
+        left: 180px;
+        width: 50%;
+    }
+
+    .slick-prev {
+        left: 145px;
+        top: 523px;
+    }
+
+    .slick-next {
+        right: 145px;
+        top: 523px;
+    }
+
+    #reservation-container{
+        max-width: 660px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    #advantages-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #advantages #advantages-container .advantage {
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    #instagram-container, #discount-container {
+        flex-wrap: wrap;
+    }
+
+    #instagram #instagram-container #insta-text, #discount #discount-container #discount-text {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 26px;
+    }
+}
+
+/*580 - 767*/
+@media screen and (max-width: 767px) {
+    #main #header #menu {
+        margin-top: 20px;
+    }
+
+    #main #header #menu a {
+        margin: 0 40px;
+
+    }
+
+    #main #titles #titles-image {
+        max-height: 380px;
+    }
+
+    #strong, #club {
+        font-size: 100px;
+    }
+
+    #club {
+        left: -10px;
+    }
+
+    #advantages-container {
+        padding: 50px 20px;
+    }
+
+    #info-image {
+        max-width: 400px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    #info #info-container #positive-sign .positive-sign-item .positive-sign-text {
+        margin-left: 17px;
+    }
+
+    #info #info-container #information #info-texts #barber-abs {
+        right: -25px;
+        max-width: 140px;
+        bottom: -535px;
+    }
+
+    #instagram #instagram-container #insta-text {
+        font-size: 21px;
+    }
+
+    #prices #prices-container #block-general #price-block-one {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #price-block-two {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #block-general {
+        flex-wrap: wrap;
+    }
+
+    #price-scissors {
+        max-width: 550px;
+        top: 550px;
+    }
+
+    #price-scissors img {
+        max-width: 120%;
+    }
+
+    #discount-button {
+        margin-left: 18px;
+    }
+
+    #barbershop-masters #barbershop-masters-container #barbershop-masters-text {
+        width: 500px;
+    }
+
+    .slick-slider .slick-list {
+        width: 328px;
+    }
+
+    .slick-dots {
+        left: 90px;
+        width: 67%;
+    }
+
+    .slick-prev {
+        left: 60px;
+        top: 523px;
+    }
+
+    .slick-next {
+        right: 58px;
+        top: 523px;
+    }
+
+}
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+    #burger {
+        display: block;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #menu {
+        top: 74px;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+    }
+
+    #menu a {
+        display: block;
+        width: auto;
+    }
+
+    #header.menu-open {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #header.menu-open #menu {
+        display: block;
+    }
+
+    #main #titles #titles-container-text {
+        margin-top: 70px;
+    }
+
+    #main #titles #titles-container-text #titles-barber {
+        font-size: 34px;
+    }
+
+    #main #titles #titles-image {
+        margin-top: -40px;
+        max-height: 300px;
+    }
+
+    #info #info-container #information #info-texts {
+        width: 417px;
+    }
+
+    #info #info-container .text {
+        font-size: 25px;
+    }
+
+    #info #info-container #information #info-texts #barber-abs {
+        right: -5px;
+    }
+
+    #barbershop-masters #barbershop-masters-container #barbershop-masters-text {
+        width: 428px;
+    }
+
+    .slick-dots {
+        display: none!important;
+    }
+
+    #price-scissors{
+        left: -30px;
+    }
+
+    #price-scissors img {
+        max-width: 100%;
+    }
+
+    .dm-modal{
+        font-size: 23px;
+    }
+}
+
+/*320 - 479 */
+@media screen and (max-width: 479px) {
+    #main #header #call {
+        margin-top: 10px;
+    }
+
+    #main #titles #titles-container-text #titles-barber {
+        font-size: 31px;
+    }
+
+    #main #titles #titles-container-text {
+        margin-top: 50px;
+    }
+
+    #main #titles #titles-image {
+        margin-top: 35px;
+        max-height: 227px;
+    }
+
+    #strong, #club {
+        font-size: 58px;
+    }
+
+    #strong {
+        top: 375px;
+    }
+
+    #advantages #advantages-container .advantage{
+        margin-right: 0;
+    }
+
+    #info #info-container .text br{
+        display: none;
+    }
+
+    #info #info-container #information #info-texts {
+        width: 275px;
+    }
+
+    #info-image img{
+        width: 95%;
+    }
+
+    #info #info-container #information #info-texts #barber-abs {
+        right: 65px;
+    }
+
+    #prices #prices-container .styles {
+        font-size: 14px;
+    }
+
+    #price-block-two{
+        padding-left: 25px;
+    }
+
+    #barbershop-masters #barbershop-masters-container #barbershop-masters-text {
+        width: 270px;
+    }
+
+    .slick-slider .slick-list {
+        width: 205px;
+    }
+
+    .master-image {
+        height: 355px;
+        width: 285px;
+    }
+
+    .slick-dots {
+        display: none;
+    }
+
+    .slick-prev {
+        left: 60px;
+        top: 456px;
+    }
+
+    .slick-next {
+        right: 50px;
+        top: 456px;
+    }
+
+    #barbershop-masters{
+        padding-bottom: 140px;
+    }
+
+    #display{
+        flex-direction: column;
+    }
+
+    #footer #footer-container #footer-container-text {
+       max-width: none;
+        margin: 0 auto;
+    }
+
+    #footer #footer-container #footer-map {
+        margin-left: 0;
+        margin-top: 20px;
+        height: 300px;
+    }
+
+    #footer #footer-container #footer-map iframe{
+        max-height: 100%;
+    }
+
+    #footer #footer-container #footer-bot{
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    #footer #footer-container #footer-bot .footer-style{
+        margin-top: 15px;
+    }
+}
+
